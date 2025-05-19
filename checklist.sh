@@ -63,8 +63,8 @@ main() {
 
         elif [[ "$file" == *" --rename "* ]]; then
             # If the selected option matches the rename pattern, extract old and new names
-            local old_name=$(echo "$file" | awk '{print $1}')
-            local new_name=$(echo "$file" | awk '{print $3}')
+            local old_name="${file%% --rename *}"
+            local new_name="${file#* --rename }"
 
             mv "$BASE_DIR/$old_name" "$BASE_DIR/$new_name.txt"
 
