@@ -91,24 +91,9 @@ THEME=(-fn "JetBrains Mono-14" -nb "#282c34" -nf "#ffffff" -sb "#61afef" -sf "#2
 
 This changes the font, makes the background dark gray, text white, and the active selection blue.
 
-## Example
-
-![screenshot](screenshot.png) <!-- Add a screenshot if available -->
-
 ## Demo Video
 
 If you'd like to see the script in action, check out the following demo video:
 
-[![Watch the demo video](https://img.youtube.com/vi/your-video-id-here/0.jpg)](https://www.youtube.com/watch?v=your-video-id-here)
+https://github.com/user-attachments/assets/f2b0f153-6156-4c13-bd40-3003ed1492ba
 
-> **Replace `your-video-id-here` with your actual YouTube video ID.**
-
----
-
-## License
-
-MIT License
-
----
-
-*Inspired by the Unix philosophy: do one thing and do it well.*
